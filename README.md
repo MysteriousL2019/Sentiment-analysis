@@ -1,7 +1,7 @@
 ## Project Outline
 
 ### Dataset Introduction
-* In this analysis, we explore a dataset that comes from [Open source](https://www.yelp.com/dataset) Yelp. It is a subset of Yelp businesses, reviews, and user data for use in connection with academic research. Available as JSON files. 
+* In this analysis, we explore a dataset that comes from [Open source](https://www.yelp.com/dataset) Yelp. It is a subset of Yelp businesses, reviews, and user data for use in connection with academic research. Available as JSON files. We discover that the original Open source data only contains reviews to 2022-01-19. We write our own [web spider](https://github.com/MysteriousL2019/yelp_spider) to get the newest data.
 * It contains 6,990,280 reviews by 1,987,897 users. Use 20,000 rows of them as the dataset
 * Use the review.json from open source part in yelp after simple opration
 
